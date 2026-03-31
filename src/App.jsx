@@ -22,7 +22,7 @@ function App() {
           </div>
           {/* Logo with Gradient */}
           <a className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-purple-400 bg-clip-text text-transparent cursor-pointer text-[24px]">
-            Digitools
+            DigiTools
           </a>
         </div>
 
@@ -56,11 +56,7 @@ function App() {
         </div>
       </nav>
 
-      {/* Hero/Banner Section Example */}
-      <div className="text-center mt-20">
-        <h1 className="text-5xl font-bold">Welcome to Digitools</h1>
-        <p className="py-6 text-gray-600">Explore our amazing digital tools collection.</p>
-      </div>
+      
     </div>
   )
 }
