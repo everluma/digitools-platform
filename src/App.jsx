@@ -2,13 +2,13 @@ import './App.css'
 
 function App() {
   return (
-    <div className="font-poppins">
+    <div >
       {/* Navbar Section */}
       <nav className="navbar bg-base-100 shadow-sm px-4 md:px-8">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg xmlns="http://w3.org" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </div>
@@ -21,7 +21,7 @@ function App() {
             </ul>
           </div>
           {/* Logo with Gradient */}
-          <a className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-purple-400 bg-clip-text text-transparent cursor-pointer">
+          <a className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-purple-400 bg-clip-text text-transparent cursor-pointer text-[24px]">
             Digitools
           </a>
         </div>
@@ -40,7 +40,7 @@ function App() {
           {/* Cart Icon */}
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
             <div className="indicator">
-              <svg xmlns="http://w3.org" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
               </svg>
               <span className="badge badge-sm indicator-item bg-purple-600 text-white">0</span>
@@ -49,8 +49,8 @@ function App() {
           
           <button className="btn btn-ghost hidden sm:flex">Login</button>
           
-          {/* Get Started Button with Gradient */}
-          <button className="btn border-none bg-gradient-to-r from-purple-600 to-purple-400 text-white hover:opacity-90 borderRadius-[12px]">
+          {/* Get Started Button */}
+          <button className="btn border-none bg-gradient-to-r from-purple-600 to-purple-400 text-white hover:opacity-90 rounded-[12px]">
             Get Started
           </button>
         </div>
