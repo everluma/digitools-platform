@@ -3,6 +3,7 @@ import Stats from './components/Stats'
 import MainSection from "./components/MainSection";
 import Steps from "./components/Steps";
 import Pricing from './components/Pricing';
+import Footer from './components/Footer';
 
 import './App.css'
 
@@ -77,6 +78,7 @@ function App() {
     <MainSection />
     <Steps/>
     <Pricing />
+    <Footer />
     </>
   )
 }
