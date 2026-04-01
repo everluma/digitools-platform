@@ -1,7 +1,9 @@
+import Banner from './components/Banner'
 import './App.css'
 
 function App() {
   return (
+    <>
     <div >
       {/* Navbar Section */}
       <nav className="navbar bg-base-100 shadow-sm px-4 md:px-8">
@@ -58,6 +60,13 @@ function App() {
 
       
     </div>
+
+     <div>
+      {/*Banner */}
+
+      <Banner />
+    </div>
+    </>
   )
 }
 
