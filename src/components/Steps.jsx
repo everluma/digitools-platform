@@ -4,6 +4,9 @@ import rocket from "../assets/rocket.png";
 
 const Steps = () => {
   return (
+
+
+    
     <div className="bg-gray-50 mb-[30px]">
         <section className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-10 ">
       {/* Heading */}

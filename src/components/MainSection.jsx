@@ -86,22 +86,27 @@ function MainSection({ cart, setCart}) {
   </span>
               </div>
 
-              <h3 className="text-xl font-semibold mt-2">
+              <h3 className="text-lg font-semibold mt-3">
                 {product.name}</h3>
 
-              <p className="text-gray-600 text-sm mt-2">{product.description}</p>
+              <p className="text-gray-500 text-sm mt-2">{product.description}</p>
 
-              <p className="mt-3 font-bold">${product.price} <span className="text-sm text-gray-500">/{product.period}</span></p>
+              <p className="mt-4 text-xl font-bold">
+              ${product.price}
+            <span className="text-sm text-gray-500 font-normal">
+            /{product.period}
+            </span>
+            </p>
 
-              <ul className="mt-3 text-sm text-gray-600">
-                {product.features.map((f, i) => (
-                  <li key={i}>✔ {f}</li>
-                ))}
-              </ul>
+              <ul className="mt-4 space-y-1 text-sm text-gray-600">
+              {product.features.map((f, i) => (
+              <li key={i}>✔ {f}</li>
+               ))}
+             </ul>
 
               <button
                 onClick={() => handleAdd(product)}
-                className="mt-4 w-full py-2 rounded-[18px] bg-gradient-to-r from-purple-600 to-blue-400 text-white"
+                className="mt-5 w-full py-2 rounded-[18px] bg-gradient-to-r from-purple-600 to-blue-400 text-white"
               >
                 Buy Now
               </button>

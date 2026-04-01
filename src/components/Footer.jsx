@@ -1,31 +1,34 @@
 const Footer = () => {
+
+
   return (
     <footer>
 
-      {/* Top CTA */}
+      {/* uporer footer */}
       <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white text-center py-12">
         <h2 className="text-3xl font-bold mb-3">
-          Start Your Journey Today
+          Ready To Transform Your Workflow?
         </h2>
-        <p className="mb-6">
-          Get access to premium digital tools instantly
+        <p className="mb-6 text-gray-300">
+          Join thousands of professionals who are already using Digitools to work smarter. <br /> Start Your free trial today.
         </p>
 
         <div className="flex justify-center gap-4">
-          <button className="btn bg-white text-black">
-            Get Started
+          <button className="btn bg-white text-purple-600 rounded-[30px]">
+            Explore Products
           </button>
-          <button className="btn btn-outline text-white">
-            Learn More
+          <button className="btn btn-outline text-white rounded-[30px]">
+            View Pricing
           </button>
         </div>
 
-        <p className="mt-4 text-sm">
-          No credit card required
+        <p className="mt-4 text-sm text-gray-300">14-days free trial. 
+          No credit card required. Cancel anytime
         </p>
       </div>
 
       {/* Bottom Footer */}
+
       <div className="bg-black text-white px-8 py-12">
 
         <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
@@ -36,7 +39,10 @@ const Footer = () => {
               DigiTools
             </h2>
             <p className="text-gray-400">
-              Best platform for digital tools
+              Premium digital tools for creators. <br/>
+              Professionals and businesses Work smarter <br />
+              with our suite of powerful tools.
+
             </p>
           </div>
 
@@ -46,8 +52,8 @@ const Footer = () => {
             <ul className="text-gray-400 space-y-1">
               <li>Features</li>
               <li>Pricing</li>
-              <li>Updates</li>
-              <li>Docs</li>
+              <li>Templates</li>
+              <li>Integrations</li>
             </ul>
           </div>
 
@@ -58,7 +64,7 @@ const Footer = () => {
               <li>About</li>
               <li>Careers</li>
               <li>Blog</li>
-              <li>Contact</li>
+              <li>Press</li>
             </ul>
           </div>
 
@@ -66,10 +72,10 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold mb-2">Resources</h3>
             <ul className="text-gray-400 space-y-1">
-              <li>Help</li>
-              <li>Guides</li>
-              <li>Support</li>
-              <li>API</li>
+              <li>Documentation</li>
+              <li>Help Center</li>
+              <li>Community </li>
+              <li>Contact</li>
             </ul>
           </div>
 

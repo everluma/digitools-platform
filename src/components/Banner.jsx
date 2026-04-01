@@ -39,12 +39,14 @@ function Banner() {
           </div>
         </div>
 
-        {/* RIGHT */}
+        {/* Right */}
+
+
         <div>
           <img
            src={bannerImg}
             alt="banner"
-           className="w-full max-w-md lg:max-w-lg"
+           className="w-full rounded-2xl max-w-md lg:max-w-lg"
          />
         </div>
 

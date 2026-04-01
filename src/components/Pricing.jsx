@@ -1,12 +1,17 @@
 const Pricing = () => {
+
+
   return (
+
+
     <section className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 py-10 ">
+
       {/* Heading */}
       <h2 className="text-3xl font-bold mb-3 text-center">
-        Choose Your Plan
+        Simple, Transparent Pricing
       </h2>
       <p className="text-gray-500 mb-10 text-center">
-        Flexible pricing for everyone
+        Choose the plan that fits your needs. Upgrade or gowngrade anytime
       </p>
 
       {/* Cards */}
@@ -14,25 +19,27 @@ const Pricing = () => {
 
         {/* Card 1 */}
         <div className="p-6 bg-gray-100 rounded-xl">
-          <h3 className="text-xl font-bold mb-2">Basic</h3>
-          <p className="text-gray-500 mb-4">For beginners</p>
+          <h3 className="text-xl font-bold mb-2">Starter</h3>
+          <p className="text-gray-500 mb-4">Perfect for getting started</p>
 
           <p className="text-3xl font-bold mb-4">
-            $10 <span className="text-sm">/month</span>
+            $0 <span className="text-sm">/month</span>
           </p>
 
           <ul className="space-y-2 mb-6">
-            <li>✔ 10 Tools Access</li>
-            <li>✔ Basic Support</li>
-            <li>✔ Limited Features</li>
+            <li>✔ Access to 10 freeTools </li>
+            <li>✔ Basic templates</li>
+            <li>✔ Community support</li>
+            <li>✔ 1 project per month</li>
           </ul>
 
-          <button className="btn btn-outline w-full">
-            Get Started
+          <button className="btn btn-outline w-full bg-gradient-to-r from-purple-600 to-blue-400 text-white rounded-[30px]">
+            Get Started free
           </button>
         </div>
 
-        {/* Card 2 (Highlighted) */}
+        {/* Card 2 it is highlited */}
+
         <div className="p-6 rounded-xl text-white bg-gradient-to-r from-blue-500 to-purple-500 scale-105">
           <h3 className="text-xl font-bold mb-2">Pro</h3>
           <p className="mb-4">Best for professionals</p>
@@ -42,12 +49,15 @@ const Pricing = () => {
           </p>
 
           <ul className="space-y-2 mb-6">
-            <li>✔ Unlimited Tools</li>
+            <li>✔ Access to all premium tools</li>
+            <li>✔ Unlimited Templates</li>
+            <li>✔ Unlimited Projects</li>
+            <li>✔ Cloud Sync</li>
             <li>✔ Priority Support</li>
             <li>✔ All Features</li>
           </ul>
 
-          <button className="btn w-full bg-white text-black">
+          <button className="btn w-full bg-white text-purple-600 rounded-[30px]">
             Get Started
           </button>
         </div>
@@ -55,20 +65,23 @@ const Pricing = () => {
         {/* Card 3 */}
         <div className="p-6 bg-gray-100 rounded-xl">
           <h3 className="text-xl font-bold mb-2">Enterprise</h3>
-          <p className="text-gray-500 mb-4">For large teams</p>
+          <p className="text-gray-500 mb-4">For teams and business </p>
 
           <p className="text-3xl font-bold mb-4">
             $50 <span className="text-sm">/month</span>
           </p>
 
           <ul className="space-y-2 mb-6">
-            <li>✔ Team Access</li>
+            <li>✔ Everything in Pro</li>
+            <li>✔ Team collaboration</li>
+            <li>✔ Custom integrations</li>
+            
             <li>✔ Dedicated Support</li>
             <li>✔ Custom Features</li>
           </ul>
 
-          <button className="btn btn-outline w-full">
-            Get Started
+          <button className="btn btn-outline w-full bg-gradient-to-r from-blue-500 to-purple-500 scale-105 rounded-[30px] text-white">
+            Contact Sales
           </button>
         </div>
 
