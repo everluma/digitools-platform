@@ -1,6 +1,7 @@
 import Banner from './components/Banner'
 import Stats from './components/Stats'
 import MainSection from "./components/MainSection";
+import Steps from "./components/Steps";
 import './App.css'
 
 
@@ -72,6 +73,7 @@ function App() {
 
     <Stats/>
     <MainSection />
+    <Steps/>
     </>
   )
 }
