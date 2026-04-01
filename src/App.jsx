@@ -1,6 +1,8 @@
 import Banner from './components/Banner'
 import Stats from './components/Stats'
+import MainSection from "./components/MainSection";
 import './App.css'
+
 
 function App() {
   return (
@@ -69,6 +71,7 @@ function App() {
     </div>
 
     <Stats/>
+    <MainSection />
     </>
   )
 }
