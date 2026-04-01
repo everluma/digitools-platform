@@ -2,6 +2,8 @@ import Banner from './components/Banner'
 import Stats from './components/Stats'
 import MainSection from "./components/MainSection";
 import Steps from "./components/Steps";
+import Pricing from './components/Pricing';
+
 import './App.css'
 
 
@@ -74,6 +76,7 @@ function App() {
     <Stats/>
     <MainSection />
     <Steps/>
+    <Pricing />
     </>
   )
 }
