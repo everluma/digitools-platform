@@ -1,4 +1,5 @@
 import Banner from './components/Banner'
+import Stats from './components/Stats'
 import './App.css'
 
 function App() {
@@ -66,6 +67,8 @@ function App() {
 
       <Banner />
     </div>
+
+    <Stats/>
     </>
   )
 }

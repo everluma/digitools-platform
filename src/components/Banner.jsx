@@ -22,7 +22,8 @@ function Banner() {
 
           <p className="text-gray-600 mt-4 max-w-md">
             Access premium AI tools, design assets, templates, and productivity software—all in one place. 
-            Start creating faster today.
+            Start creating faster today. <br />
+            Explore Products.
           </p>
 
           <div className="flex gap-5 mt-8">
