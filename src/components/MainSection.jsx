@@ -4,9 +4,9 @@ import productsData from "../data/products"
 
 
 
-function MainSection() {
+function MainSection({ cart, setCart}) {
   const [view, setView] = useState("products")
-  const [cart, setCart] = useState([])
+ 
 
 
 
@@ -67,12 +67,24 @@ function MainSection() {
         // Product grid 
 
 
-        <div className="grid md:grid-cols-3 gap-6 mt-10">
+        <div className="grid md:grid-cols-3 gap-6 mt-10 bg-white rounded-xl shadow-md hover:shadow-xl transition p-6">
 
           {productsData.map(product => (
             <div key={product.id} className="border border-gray-100 rounded-xl p-5 shadow-sm">
 
-              <div className="text-5xl bg-gray-50 rounded-full w-[70px] h-[70px] items-center justify-center flex">{product.icon}</div>
+              <div className="flex justify-between items-center">
+
+                <span className="text-5xl bg-gray-50 rounded-full w-[70px] h-[70px] items-center justify-center flex">{product.icon}</span>
+
+                <span className={`
+               text-xs px-3 py-1 rounded-full
+               ${product.tagType === "best" && "bg-purple-100 text-purple-600"}
+               ${product.tagType === "new" && "bg-blue-100 text-blue-600"}
+               ${product.tagType === "popular" && "bg-pink-100 text-pink-600"}
+            `}>
+    {product.tag}
+  </span>
+              </div>
 
               <h3 className="text-xl font-semibold mt-2">
                 {product.name}</h3>

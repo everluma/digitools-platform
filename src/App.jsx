@@ -17,7 +17,7 @@ function App() {
   const [cart, setCart] = useState([])
 
 
-  
+
   return (
 
     
@@ -31,7 +31,7 @@ function App() {
     </div>
 
     <Stats/>
-    <MainSection />
+    <MainSection cart={cart} setCart={setCart}/>
     <Steps/>
     <Pricing />
     <Footer />
