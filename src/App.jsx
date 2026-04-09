@@ -7,6 +7,9 @@ import Pricing from './components/Pricing';
 import Footer from './components/Footer';
 import { useState } from 'react';
 
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
 import './App.css'
 
 
@@ -35,6 +38,17 @@ function App() {
     <Steps/>
     <Pricing />
     <Footer />
+
+    <ToastContainer
+  position="top-right"
+  autoClose={2000}
+  hideProgressBar={false}
+  newestOnTop
+  closeOnClick
+  pauseOnHover
+  draggable
+  theme="colored"
+/>
     </>
   )
 }
