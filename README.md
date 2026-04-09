@@ -2,7 +2,7 @@
 A modern, high-performance e-commerce platform dedicated to providing the best digital tools for creators and professionals.
 
 ### 📸 Screenshot
-![Project Screenshot](https://placeholder.com) 
+![Project Screenshot](screencapture-digitool-projec-netlify-app-2026-04-09-19_08_43.png) 
 
 
 ### 🔗 Links
@@ -38,4 +38,16 @@ Follow these steps to set up the project on your local machine:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
+   git clone [https://github.com](https://github.com/everluma/digitools-platform)
+   
+2.Navigate to the project folder:
+bash
+cd digitools-platform
+
+3. Install dependencies
+   npm install
+
+4. Start the development server
+   npm run dev
+
+5. open in browser: visit http://localhost:5173
