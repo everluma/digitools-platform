@@ -1,27 +1,41 @@
-## A-6 Digital Tools Projects
-A modern, high-performance e-commerce platform dedicated to providing the best digital tools for creators and professionals. This project focuses on a seamless user experience, featuring a dynamic product catalog and an interactive cart management system.
-## 🛠 Technologies Used
+# 🛠️ Digital Tools Platform
+A modern, high-performance e-commerce platform dedicated to providing the best digital tools for creators and professionals.
 
-* Frontend: React.js
-* Styling: Tailwind CSS & DaisyUI
-* Notifications: React-Toastify
-* Language: JavaScript (ES6+)
-* Data: JSON-based product architecture
+### 📸 Screenshot
+![Project Screenshot](https://placeholder.com) 
+
+
+### 🔗 Links
+- **Live Demo:** https://digitool-projec.netlify.app/
+- **Design Reference:** [Figma Link](YOUR_FIGMA_LINK_IF_ANY)
+
+---
 
 ## 🚀 Key Features
+1. **Dual-View Main Section:** An intuitive toggling system to switch effortlessly between the Product Grid and the Cart View.
+2. **Interactive Cart Management:** Real-time synchronization between the product list and the shopping cart with a dynamic Navbar counter.
+3. **Responsive Design:** Fully mobile-responsive interface built strictly according to Figma specifications.
+4. **Instant Feedback:** Integrated **React-Toastify** for alerts on adding, removing, or checking out items.
 
-   1. Dual-View Main Section: An intuitive toggling system that allows users to switch effortlessly between the Product Grid and the Cart View.
-   2. Interactive Cart Management: Real-time synchronization between the product list and the shopping cart, including a dynamic item counter in the Navbar.
-   3. Responsive Design: A fully mobile-responsive interface designed strictly according to Figma specifications, ensuring a professional look on all devices.
+## 🛠️ Technologies Used
+- **Frontend:** React.js
+- **Styling:** Tailwind CSS & DaisyUI
+- **Icons:** Lucide React / React Icons
+- **Notifications:** React-Toastify
+- **Architecture:** JSON-based dynamic product rendering
 
-## 💡 Dynamic Functionality
+## 📦 Dependencies
+To run this project, the following main dependencies are used:
+- `react`
+- `react-dom`
+- `lucide-react`
+- `react-toastify`
+- `daisyui`
+- `tailwind-merge`
 
-* Smart Navbar: The cart icon in the Navbar reflects the current number of selected items instantly.
-* Instant Feedback: Clicking the Buy Now button triggers a visual "Added to cart" message, supported by React-Toastify alerts for all major actions (Add, Remove, Checkout).
-* Clean Checkout: The Proceed to Checkout button provides a one-click solution to finalize the session by clearing all items from the cart.
+## 💻 How to Run Locally
+Follow these steps to set up the project on your local machine:
 
-
-   
-   
-
-
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
